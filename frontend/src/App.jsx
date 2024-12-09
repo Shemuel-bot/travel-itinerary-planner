@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from './assets/logo.png'
 import './App.css'
 
 function App() {
@@ -7,9 +8,7 @@ function App() {
   return (
     <>
       <header>
-        <h2>
-          Trip Mosaic
-        </h2>
+        <img className='logo' src={logo} alt="" />
 
         <span className='guide'>
           <button>thing</button>

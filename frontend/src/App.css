@@ -59,6 +59,10 @@ header{
   border-radius: 7px;
 }
 
+.logo{
+  width: 200px;
+  height: 100px;
+}
 
 .log-in:hover{
   width: 92px;
