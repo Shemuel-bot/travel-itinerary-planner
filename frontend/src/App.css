@@ -1,42 +1,79 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#body{
+  display: flex;
+  flex-direction: column;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header{
+  display: flex;
+  justify-content: space-evenly;
+
+  position:relative;
+
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.164);
+
+  padding: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.guide{
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.sign-in-options{
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
 }
 
-.card {
-  padding: 2em;
+.log-in{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background-color: rgba(58, 181, 238, 0.795);
+
+  border-style: none;
+
+  width: 90px;
+  height: 35px;
+
+  border-radius: 7px;
 }
 
-.read-the-docs {
-  color: #888;
+.sign-up{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background-color: rgba(250, 192, 66, 0.719);
+
+  border-style: none;
+
+  width: 90px;
+  height: 35px;
+
+  border-radius: 7px;
+}
+
+
+.log-in:hover{
+  width: 92px;
+  height: 37px;
+
+  background-color: rgba(46, 152, 201, 0.795);
+
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
+}
+
+.sign-up:hover{
+  width: 92px;
+  height: 37px;
+
+  background-color: rgba(219, 167, 56, 0.719);
+
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
 }
