@@ -1,3 +1,15 @@
+@font-face {
+  font-family: NotoSans;
+  src: url('./assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf');
+
+}
+
+@font-face {
+  font-family: PlayWright;
+  src: url('./assets/fonts/Playwrite_HR_Lijeva/static/PlaywriteHRLijeva-Regular.ttf');
+
+}
+
 #body{
   display: flex;
   flex-direction: column;
@@ -6,18 +18,23 @@
 header{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 
-  position:relative;
+  position:sticky;
+
+  font-family: NotoSans;
 
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.164);
 
   padding: 20px;
 }
 
+
 .guide{
   display: flex;
   align-items: center;
   gap: 100px;
+  
 }
 
 .sign-in-options{
@@ -64,6 +81,47 @@ header{
   height: 100px;
 }
 
+.guide-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  height: 40px;
+
+  background-color: rgba(240, 248, 255, 0);
+
+  border-style: none;
+  border-radius: 5px;
+}
+
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: PlayWright;
+  font-size: larger;
+}
+
+.trip-images{
+  width: 500px;
+  height: 250px;
+
+  
+}
+
+
+
+.guide-button:hover{
+  background-color: rgba(170, 170, 170, 0.212);
+
+  font-size: large;
+
+  cursor: pointer;
+}
+
 .log-in:hover{
   width: 92px;
   height: 37px;
@@ -71,6 +129,8 @@ header{
   background-color: rgba(46, 152, 201, 0.795);
 
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
+
+  cursor: pointer;
 }
 
 .sign-up:hover{
@@ -80,4 +140,6 @@ header{
   background-color: rgba(219, 167, 56, 0.719);
 
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
+
+  cursor: pointer;
 }
