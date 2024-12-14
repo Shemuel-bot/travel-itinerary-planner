@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "./assets/logo.png";
 import img1 from "./assets/images/pexels-apasaric-1285625.jpg";
+import img2 from "./assets/images/pexels-david-bartus-43782-1166209.jpg"
 import "./App.css";
 
 function App() {
@@ -56,7 +57,12 @@ function App() {
           <span className="intro-groups">
             <h1>Seamless Itineraries</h1>
             <p>Create, customize, and manage your trips effortlessly.</p>
+            <div className="img-holder">
+              <img src={img2} alt="" className="trip-images" />
+            </div>
           </span>
+
+
         </div>
         <div></div>
         <div></div>

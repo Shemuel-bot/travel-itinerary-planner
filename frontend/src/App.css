@@ -15,6 +15,7 @@ header{
 
   position:fixed;
   z-index: 1;
+  top: -1%;
 
   box-shadow: 5px 0px 10px rgba(167, 167, 167, 0.438);
   background-color: rgb(255, 255, 255);
@@ -112,7 +113,8 @@ main{
 
 .intro-groups{
   text-align: center;
-
+  animation: text-intro 1 5s linear;
+  transition: font-size 1s;
 }
 
 .intro-groups>p{
@@ -131,7 +133,7 @@ main{
 .trip-images{
   width: 500px;
   height: 250px;
-
+  transition: all 1s;
 }
 
 
@@ -164,4 +166,22 @@ main{
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
 
   cursor: pointer;
+}
+
+.intro-groups:hover{
+  font-size: larger;
+}
+
+.trip-images:hover{
+  width: 475px;
+  height: 240px;
+}
+
+@keyframes text-intro {
+  from {
+    color: transparent;
+  }
+  to {
+    color: black;
+  }
 }
