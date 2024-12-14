@@ -2,6 +2,8 @@ import { useState } from "react";
 import logo from "./assets/logo.png";
 import img1 from "./assets/images/pexels-apasaric-1285625.jpg";
 import img2 from "./assets/images/pexels-david-bartus-43782-1166209.jpg"
+import img3 from "./assets/images/pexels-fotios-photos-1107717.jpg"
+import img4 from "./assets/images/pexels-pixabay-462162.jpg"
 import "./App.css";
 
 function App() {
@@ -62,11 +64,29 @@ function App() {
             </div>
           </span>
 
+          <span className="intro-groups">
+            <h1>Smart Suggestions</h1>
+            <p>Discover recommended activities, accommodations, and dining spots tailored to your preferences.</p>
+            <div className="img-holder">
+              <img src={img3} alt="" className="trip-images" />
+            </div>
+          </span>
 
+          <span className="intro-groups">
+            <h1>Collaborate</h1>
+            <p>Share your plans with friends and family in real time.</p>
+            <div className="img-holder">
+              <img src={img4} alt="" className="trip-images" />
+            </div>
+          </span>
+        </div>
+        <div>
+          
         </div>
         <div></div>
-        <div></div>
       </main>
+
+      
     </>
   );
 }
