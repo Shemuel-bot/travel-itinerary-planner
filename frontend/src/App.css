@@ -4,6 +4,11 @@
 
 }
 
+@font-face {
+  font-family: Dancing;
+  src: url('./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
 #body{
 
 }
@@ -136,6 +141,26 @@ main{
   transition: all 1s;
 }
 
+.about-us{
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+
+  position: absolute;
+
+  text-align: center;
+
+  font-family: Dancing;
+  font-size: 35px;
+
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.about-us>span{
+  font-family: PlayWright;
+  font-size: large;
+}
 
 
 .guide-button:hover{
