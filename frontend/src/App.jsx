@@ -101,37 +101,59 @@ function App() {
               on making memories instead of managing logistics.
             </p>
           </span>
-          
+
           <span>
             <h2>Our Mission</h2>
-            <p>To empower travelers with innovative tools that make trip planning stress-free and collaborative while inspiring exploration of the world’s endless possibilities.</p>
+            <p>
+              To empower travelers with innovative tools that make trip planning
+              stress-free and collaborative while inspiring exploration of the
+              world’s endless possibilities.
+            </p>
           </span>
 
           <span>
             <h2>Why We Built TripMosaic</h2>
-            <p>We’re passionate travelers who’ve experienced the struggles of juggling multiple spreadsheets, emails, and maps while planning trips. TripMosaic was born to solve these problems, creating a single, beautiful platform where your entire journey comes together.</p>
+            <p>
+              We’re passionate travelers who’ve experienced the struggles of
+              juggling multiple spreadsheets, emails, and maps while planning
+              trips. TripMosaic was born to solve these problems, creating a
+              single, beautiful platform where your entire journey comes
+              together.
+            </p>
           </span>
 
           <span>
             <h2>Our Values</h2>
             <ul>
               <li>
-                <p>Simplicity: Making travel planning intuitive and hassle-free.</p>
+                <p>
+                  Simplicity: Making travel planning intuitive and hassle-free.
+                </p>
               </li>
               <li>
-                <p>Creativity: Bringing your trips to life with unique, colorful tools.</p>
+                <p>
+                  Creativity: Bringing your trips to life with unique, colorful
+                  tools.
+                </p>
               </li>
               <li>
-                <p>Community: Encouraging collaboration and shared adventures.</p>
+                <p>
+                  Community: Encouraging collaboration and shared adventures.
+                </p>
               </li>
               <li>
-                <p>Exploration: Inspiring people to discover the beauty of our world.</p>
+                <p>
+                  Exploration: Inspiring people to discover the beauty of our
+                  world.
+                </p>
               </li>
             </ul>
           </span>
         </div>
 
-        <div></div>
+        <div>
+          
+        </div>
       </main>
     </>
   );

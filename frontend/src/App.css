@@ -143,23 +143,37 @@ main{
 
 .about-us{
   display: flex;
-  flex-direction: column;
   gap: 55px;
+  justify-content: center;
+
+  flex-wrap: wrap;
 
   position: absolute;
+  right: -52%;
 
-  text-align: center;
+  width: 150%;
 
   font-family: Dancing;
   font-size: 35px;
 
   margin-top: 25%;
   margin-bottom: 25%;
+
+
+  padding: 100px;
+}
+
+.about-us>h1{
+  width: 50%;
 }
 
 .about-us>span{
   font-family: PlayWright;
   font-size: large;
+  
+  width: 45%;
+
+  transition: all 1s;
 }
 
 
@@ -200,6 +214,10 @@ main{
 .trip-images:hover{
   width: 475px;
   height: 240px;
+}
+
+.about-us>span:hover{
+  font-size: medium;
 }
 
 @keyframes text-intro {
