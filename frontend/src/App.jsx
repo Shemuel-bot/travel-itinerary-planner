@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
 import img1 from "./assets/images/pexels-apasaric-1285625.jpg";
 import img2 from "./assets/images/pexels-david-bartus-43782-1166209.jpg";
@@ -151,10 +152,64 @@ function App() {
           </span>
         </div>
 
-        <div>
-          
+        <div className="join">
+          <h1>Join the TripMosaic Community</h1>
+
+          <span>
+            <h2>Start Turning Your Travel Dreams into Reality</h2>
+            <p>
+              Join thousands of travelers who trust TripMosaic to make planning
+              seamless, enjoyable, and stress-free. From quick weekend getaways
+              to epic global adventures, we’re here to help you create the
+              perfect travel experience.
+            </p>
+          </span>
+
+          <span>
+            <h2>Why Join TripMosaic?</h2>
+            <ul>
+              <li>
+                All-in-One Planning: Streamline your travel plans with
+                beautifully designed itineraries.
+              </li>
+              <li>
+                Collaborative Features: Plan trips with friends and family in
+                real-time.
+              </li>
+              <li>
+                Personalized Suggestions: Discover tailored recommendations for
+                activities, accommodations, and dining.
+              </li>
+              <li>On-the-Go Access: Keep your itinerary at your fingertips, even offline.</li>
+            </ul>
+          </span>
+
+          <span>
+            <h2>Your Journey Starts Here</h2>
+            <ol>
+              <li>Create Your Free Account: Sign up and start exploring our essential features.</li>
+              <li>Build Your Itinerary: Organize your plans into a stunning mosaic layout.</li>
+              <li>Share and Collaborate: Invite travel companions to join your plan and contribute.</li>
+            </ol>
+          </span>
+
+          <span>
+            <h2>Exclusive Member Benefits</h2>
+            <ul>
+              <li>Free and Premium Plans: Choose the features that suit your travel style</li>
+              <li>Travel Insights: Access expert tips and curated recommendations</li>
+              <li>Community Perks: Enjoy exclusive deals and offers for members</li>
+            </ul>
+          </span>
+
+          <span>
+          <Link className="join-link">Join Now</Link>
+          <p>Let’s make planning your next adventure as exciting as the journey itself!</p>
+          </span>
         </div>
       </main>
+
+      
     </>
   );
 }

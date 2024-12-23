@@ -173,9 +173,35 @@ main{
   
   width: 45%;
 
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
+
+.join{
+  display: flex;
+  gap: 55px;
+  flex-direction: column;
+
+
+  position: absolute;
+  
+  top: 175%;
+  font-family: Dancing;
+
+  font-size: 35px;
+}
+
+.join>span{
+  font-family: PlayWright;
+
+  font-size: medium;
+}
+
+.join>span>ul, .join>span>ol{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 .guide-button:hover{
   background-color: rgba(170, 170, 170, 0.212);
@@ -218,6 +244,7 @@ main{
 
 .about-us>span:hover{
   font-size: medium;
+  border-top-style: solid;
 }
 
 @keyframes text-intro {
