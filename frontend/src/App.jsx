@@ -202,14 +202,12 @@ function App() {
             </ul>
           </span>
 
-          <span>
-          <Link className="join-link">Join Now</Link>
-          <p>Let’s make planning your next adventure as exciting as the journey itself!</p>
-          </span>
         </div>
       </main>
 
-      
+      <footer>
+        
+      </footer>
     </>
   );
 }
