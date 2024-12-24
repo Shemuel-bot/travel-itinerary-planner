@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <header>
-        <img className="logo" src={logo} alt="" />
+        <img src={logo} className="logo" alt="" />
 
         <span className="guide">
           <button className="guide-button">
@@ -180,33 +180,77 @@ function App() {
                 Personalized Suggestions: Discover tailored recommendations for
                 activities, accommodations, and dining.
               </li>
-              <li>On-the-Go Access: Keep your itinerary at your fingertips, even offline.</li>
+              <li>
+                On-the-Go Access: Keep your itinerary at your fingertips, even
+                offline.
+              </li>
             </ul>
           </span>
 
           <span>
             <h2>Your Journey Starts Here</h2>
             <ol>
-              <li>Create Your Free Account: Sign up and start exploring our essential features.</li>
-              <li>Build Your Itinerary: Organize your plans into a stunning mosaic layout.</li>
-              <li>Share and Collaborate: Invite travel companions to join your plan and contribute.</li>
+              <li>
+                Create Your Free Account: Sign up and start exploring our
+                essential features.
+              </li>
+              <li>
+                Build Your Itinerary: Organize your plans into a stunning mosaic
+                layout.
+              </li>
+              <li>
+                Share and Collaborate: Invite travel companions to join your
+                plan and contribute.
+              </li>
             </ol>
           </span>
 
           <span>
             <h2>Exclusive Member Benefits</h2>
             <ul>
-              <li>Free and Premium Plans: Choose the features that suit your travel style</li>
-              <li>Travel Insights: Access expert tips and curated recommendations</li>
-              <li>Community Perks: Enjoy exclusive deals and offers for members</li>
+              <li>
+                Free and Premium Plans: Choose the features that suit your
+                travel style
+              </li>
+              <li>
+                Travel Insights: Access expert tips and curated recommendations
+              </li>
+              <li>
+                Community Perks: Enjoy exclusive deals and offers for members
+              </li>
             </ul>
           </span>
-
         </div>
       </main>
 
       <footer>
+        <span>
+          <h3>Discover</h3>
+          <p>Home</p>
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Blog</p>
+          <p>About Us</p>
+        </span>
+
+        <span>
+          <h3>Support</h3>
+          <p>FAQ</p>
+          <p>Help Center</p>
+          <p>Contact Us</p>
+        </span>
+
+        <span>
+          <h3>Contact Info</h3>
+          <p>support@tripmosaic.com</p>
+          <p>+1 (800) 555-TRIP</p>
+          <p>123 Travel Lane, Wanderlust City, USA</p>
+        </span>
         
+        <span>
+          <img src={logo} className="logo" alt="" />© 2024 TripMosaic. All
+          Rights Reserved.
+        </span>
       </footer>
     </>
   );

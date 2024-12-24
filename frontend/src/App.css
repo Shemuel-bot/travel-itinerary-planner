@@ -9,8 +9,9 @@
   src: url('./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
 }
 
-#body{
-
+@font-face {
+  font-family: Noto;
+  src: url('./assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf');
 }
 
 header{
@@ -36,6 +37,27 @@ main{
 
   top: 20%;
   right: 38%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+
+  font-family: Noto;
+
+  position: absolute;
+  top: 720%;
+
+  width: 98.7vw;
+  height: 35vh;
+
+  background-color: rgba(187, 187, 187, 0.226);
+}
+
+footer>span{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .guide{
@@ -85,8 +107,8 @@ main{
 }
 
 .logo{
-  width: 200px;
-  height: 100px;
+  width: 180px;
+  height: 130px;
 }
 
 .guide-button{
