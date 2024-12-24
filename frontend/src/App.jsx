@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
+import gray_logo from './assets/gray_logo.png'
 import img1 from "./assets/images/pexels-apasaric-1285625.jpg";
 import img2 from "./assets/images/pexels-david-bartus-43782-1166209.jpg";
 import img3 from "./assets/images/pexels-fotios-photos-1107717.jpg";
@@ -246,9 +247,9 @@ function App() {
           <p>+1 (800) 555-TRIP</p>
           <p>123 Travel Lane, Wanderlust City, USA</p>
         </span>
-        
+
         <span>
-          <img src={logo} className="logo" alt="" />© 2024 TripMosaic. All
+          <img src={gray_logo} className="logo" alt="" />© 2024 TripMosaic. All
           Rights Reserved.
         </span>
       </footer>
