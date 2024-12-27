@@ -1,18 +1,35 @@
-#root{
+@font-face {
+    font-family: PlayWright;
+    src: url('./assets/fonts/Playwrite_HR_Lijeva/static/PlaywriteHRLijeva-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url('./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Noto;
+    src: url('./assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf');
+}
+
+
+#root {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     flex-grow: 1;
 }
 
-.stock-img{
+.stock-img {
     position: absolute;
     right: 30%;
 
-    width: 80%;
+    width: 1500px;
     height: 100vh;
 }
 
-.half{
+.half {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,14 +44,65 @@
     box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.322);
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-
-    gap: 15px;
+.logo {
+    width: 300px;
+    height: 220px;
 }
 
-form>span{
+form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    font-family: Noto;
+    font-size: small;
+
+    color: rgba(126, 126, 126, 0.575);
+
+    gap: 30px;
+}
+
+form>span {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+
+    border-style: none;
+    border-bottom-style: solid;
+
+    background-color: transparent;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+
+    color: white;
+
+    font-size: 18px;
+
+    border-style: none;
+    border-radius: 20px;
+
+    background-color: rgba(58, 181, 238, 0.795);
+
+    transition: all 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(58, 181, 238, 0.884);
+
+    font-size: medium;
 }
