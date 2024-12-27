@@ -1,0 +1,40 @@
+#root{
+    display: flex;
+    justify-content:flex-end;
+    flex-grow: 1;
+}
+
+.stock-img{
+    position: absolute;
+    right: 30%;
+
+    width: 80%;
+    height: 100vh;
+}
+
+.half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 35vw;
+    height: 100vh;
+
+    background-color: white;
+
+    box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.322);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+form>span{
+    display: flex;
+    flex-direction: column;
+}

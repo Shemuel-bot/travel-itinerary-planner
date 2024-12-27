@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
 import gray_logo from './assets/gray_logo.png'
 import img1 from "./assets/images/pexels-apasaric-1285625.jpg";
