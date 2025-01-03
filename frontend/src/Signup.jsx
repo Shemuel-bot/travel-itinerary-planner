@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import img from "./assets/images/pexels-pixabay-280221.jpg";
+import img from "./assets/images/pexels-peng-liu-45946-169647.jpg";
 import logo from "./assets/logo.png";
-import "./css/login.css";
+import "./css/signup.css";
 
-function Login() {
+function Signup() {
   return (
     <div className="login">
         
@@ -18,6 +18,16 @@ function Login() {
 
         <form action="#">
           <span>
+            <label htmlFor="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+          </span>
+
+          <span>
+            <label htmlFor="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+          </span>
+
+          <span>
             <label htmlFor="email">Email</label>
             <input type="email" name="email" id="email" />
           </span>
@@ -27,15 +37,12 @@ function Login() {
             <input type="password" name="password" id="password" />
           </span>
 
-          <button className="login-btn">log in</button>
+          <button className="signup-btn">Sign Up</button>
         </form>
-
-        <Link to='/sign-up'>
-            sign up
-        </Link> 
+        <Link to='/log-in'>log in</Link>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Signup;
