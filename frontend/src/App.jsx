@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
-import gray_logo from './assets/gray_logo.png'
+import gray_logo from "./assets/gray_logo.png";
 import img1 from "./assets/images/pexels-apasaric-1285625.jpg";
 import img2 from "./assets/images/pexels-david-bartus-43782-1166209.jpg";
 import img3 from "./assets/images/pexels-fotios-photos-1107717.jpg";
@@ -37,12 +38,16 @@ function App() {
         </span>
 
         <span className="sign-in-options">
-          <button className="log-in">
-            <h3>Log in</h3>
-          </button>
-          <button className="sign-up">
-            <h3>Sign up</h3>
-          </button>
+          <Link to="log-in">
+            <button className="log-in">
+              <h3>Log in</h3>
+            </button>
+          </Link>
+          <Link to="sign-up">
+            <button className="sign-up">
+              <h3>Sign up</h3>
+            </button>
+          </Link>
         </span>
       </header>
 

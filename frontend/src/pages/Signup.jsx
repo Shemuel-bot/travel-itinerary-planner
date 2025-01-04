@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import img from "./assets/images/pexels-peng-liu-45946-169647.jpg";
-import logo from "./assets/logo.png";
-import "./css/signup.css";
+import img from "../assets/images/pexels-peng-liu-45946-169647.jpg";
+import logo from "../assets/logo.png";
+import "../css/signup.css";
 
 function Signup() {
   return (
