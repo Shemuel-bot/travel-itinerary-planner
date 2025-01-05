@@ -1,0 +1,156 @@
+@font-face {
+    font-family: PlayWright;
+    src: url('./assets/fonts/Playwrite_HR_Lijeva/static/PlaywriteHRLijeva-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url('./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Noto;
+    src: url('./assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf');
+}
+
+.contact header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1;
+    top: -1%;
+
+    box-shadow: 5px 0px 10px rgba(167, 167, 167, 0.438);
+    background-color: rgb(255, 255, 255);
+
+    padding: 20px;
+
+    width: 100vw;
+
+}
+
+.contact main {
+    position: absolute;
+
+    top: 20%;
+    right: 38%;
+}
+
+.contact footer {
+    display: flex;
+    justify-content: space-evenly;
+
+    font-family: Noto;
+
+    position: absolute;
+    top: 720%;
+
+    width: 98.7vw;
+    height: 35vh;
+
+    background-color: rgba(187, 187, 187, 0.226);
+}
+
+.contact footer>span {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.contact .guide {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.contact .sign-in-options {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.contact .log-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: rgba(58, 181, 238, 0.795);
+
+    border-style: none;
+
+    width: 90px;
+    height: 35px;
+
+    border-radius: 7px;
+}
+
+.contact .sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: rgba(250, 192, 66, 0.719);
+
+    border-style: none;
+
+    width: 90px;
+    height: 35px;
+
+    border-radius: 7px;
+}
+
+.contact .logo {
+    width: 180px;
+    height: 130px;
+}
+
+.contact .guide-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90px;
+    height: 40px;
+
+    background-color: rgba(240, 248, 255, 0);
+
+    border-style: none;
+    border-radius: 5px;
+}
+
+.contact .guide-button:hover {
+    background-color: rgba(170, 170, 170, 0.212);
+
+    font-size: large;
+
+    cursor: pointer;
+}
+
+.contact .log-in:hover {
+    width: 92px;
+    height: 37px;
+
+    background-color: rgba(46, 152, 201, 0.795);
+
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
+
+    cursor: pointer;
+}
+
+.contact .sign-up:hover {
+    width: 92px;
+    height: 37px;
+
+    background-color: rgba(219, 167, 56, 0.719);
+
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.055);
+
+    cursor: pointer;
+}

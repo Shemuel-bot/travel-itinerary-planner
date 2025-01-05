@@ -60,6 +60,7 @@ footer>span{
   align-items: baseline;
 }
 
+
 .guide{
   display: flex;
   align-items: center;
@@ -123,8 +124,13 @@ footer>span{
 
   border-style: none;
   border-radius: 5px;
+
+  
 }
 
+.link{
+  text-decoration: none;
+}
 
 .introduction{
   display: flex;
@@ -278,6 +284,8 @@ footer>span{
   border-radius: 70%;
 
 }
+
+
 
 @keyframes text-intro {
   from {
