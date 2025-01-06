@@ -4,26 +4,24 @@ import gray_logo from "./assets/gray_logo.png";
 import "./App.css";
 
 function App() {
-
-  
-  
-
   return (
     <>
       <header>
         <img src={logo} className="logo" alt="" />
 
         <span className="guide">
-          <Link to='/main' className="link">
-          <button className="guide-button">
-            <h3>
-              <h3>Thing</h3>
-            </h3>
-          </button>
+          <Link to="/main" className="link">
+            <button className="guide-button">
+              <h3>
+                <h3>Thing</h3>
+              </h3>
+            </button>
           </Link>
-          <button className="guide-button">
-            <h3>Thing</h3>
-          </button>
+          <Link to="/contact-us" className="link">
+            <button className="guide-button">
+              <h3>Thing</h3>
+            </button>
+          </Link>
 
           <button className="guide-button">
             <h3>Thing</h3>
