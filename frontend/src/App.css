@@ -26,7 +26,7 @@ header{
 
   padding: 20px;
   
-  width: 100%;
+  width: 98%;
 
 }
 
@@ -175,6 +175,8 @@ footer>span{
   display: flex;
   gap: 55px;
   justify-content: center;
+  
+  text-align: center;
 
   flex-wrap: wrap;
 
@@ -211,7 +213,7 @@ footer>span{
   flex-direction: column;
   align-items: center;
 
-  
+  text-align: center;
 
 
   font-family: Dancing;
@@ -304,7 +306,15 @@ footer>span{
   header{
     flex-direction: column;
   }
-  .join>h1{
-    margin-left: 50px;
+  .trip-images{
+    width: 340px;
+    height: 200px;
+  }
+  .intro-groups>p{
+    width: 200px;
+    margin-left: 60px;
+  }
+  .img-holder{
+    padding: 6px;
   }
 }

@@ -13,14 +13,104 @@
     font-family: Noto;
     src: url('./assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf');
 }
+ 
+.contact h1{
+    font-family: Dancing;
+    font-size: 50px;
+}
+
+.contact p{
+    font-family: PlayWright;
+    font-size: larger;
+
+    width: 800px;
+}
 
 .contact header{
-    border-style: double;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
-    position: absolute;
-    top: 75%;
-    right: -37.2vw;
-    width: 96vw;
-    z-index: 0;
+   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+   margin-bottom: 100px;
+}
+
+
+
+.contact .message-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: Noto;
     
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+
+    background-color: rgba(229, 237, 243, 0.589);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+    
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+.contact form>span{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input{
+    width: 300px;
+    height: 40px;
+
+    border-style: none;
+    border-bottom-style: solid;
+
+    background-color: transparent;
+}
+
+.contact #message{
+    border-style: none;
+    resize: none;
+}
+
+.contact #send{
+    width: 110px;
+    height: 40px;
+
+    border-radius: 10px;
+    border-style: none;
+    
+    font-family: Noto;
+    font-size: larger;
+
+    color: white;
+    background-color: rgba(58, 181, 238, 0.795);
+
+    transition: all 1s;
+}
+
+.contact input:focus{
+    outline: none;
+}
+
+.contact #send:hover{
+    width: 8rem;
+    height: 3rem;
+
+    cursor: pointer;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(58, 181, 238, 0.87);
+
+    font-size: 22px;
 }

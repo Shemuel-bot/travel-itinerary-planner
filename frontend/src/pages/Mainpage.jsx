@@ -142,6 +142,23 @@ function Mainpage() {
           </ul>
         </span>
 
+        
+        <span>
+          <h2>Exclusive Member Benefits</h2>
+          <ul>
+            <li>
+              Free and Premium Plans: Choose the features that suit your travel
+              style
+            </li>
+            <li>
+              Travel Insights: Access expert tips and curated recommendations
+            </li>
+            <li>
+              Community Perks: Enjoy exclusive deals and offers for members
+            </li>
+          </ul>
+        </span>
+
         <span>
           <h2>Your Journey Starts Here</h2>
           <ol>
@@ -160,21 +177,6 @@ function Mainpage() {
           </ol>
         </span>
 
-        <span>
-          <h2>Exclusive Member Benefits</h2>
-          <ul>
-            <li>
-              Free and Premium Plans: Choose the features that suit your travel
-              style
-            </li>
-            <li>
-              Travel Insights: Access expert tips and curated recommendations
-            </li>
-            <li>
-              Community Perks: Enjoy exclusive deals and offers for members
-            </li>
-          </ul>
-        </span>
       </div>
     </>
   );
