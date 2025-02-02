@@ -14,8 +14,11 @@
     src: url('./assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf');
 }
  
+*{
+    animation: text-intro 1 2s linear;
+}
 .contact h1{
-    font-family: Dancing;
+    font-family: PlayWright;
     font-size: 50px;
 }
 
@@ -123,4 +126,13 @@
 
 .contact-info>p{
     text-align: center;
+}
+
+@keyframes text-intro {
+    from {
+      color: transparent;
+    }
+    to {
+      color: black;
+    }
 }

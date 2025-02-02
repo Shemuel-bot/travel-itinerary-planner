@@ -23,9 +23,11 @@ function App() {
             </button>
           </Link>
 
+          <Link to='/destinations' className="link">
           <button className="guide-button">
-            <h3>Thing</h3>
+            <h3>Destinations</h3>
           </button>
+          </Link>
 
           <button className="guide-button">
             <h3>Thing</h3>
