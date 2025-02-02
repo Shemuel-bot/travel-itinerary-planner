@@ -17,26 +17,38 @@ function Contact() {
         <form action="#">
           <span>
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name"/>
+            <input type="text" name="name" id="name" />
           </span>
 
           <span>
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email"/>
+            <input type="email" name="email" id="email" />
           </span>
 
           <span>
             <label htmlFor="subject">Subject</label>
-            <input type="text" name="subject" id="subject"/>
+            <input type="text" name="subject" id="subject" />
           </span>
 
           <span>
             <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" rows={12} cols={60}></textarea>
+            <textarea
+              name="message"
+              id="message"
+              rows={12}
+              cols={60}
+            ></textarea>
           </span>
 
           <button id="send">Send</button>
         </form>
+      </div>
+
+      <div className="contact-info">
+        <h1>Contact Information</h1>
+        <p>support@tripmosaic.com</p>
+        <p>+1 (800) 555-TRIP</p>
+        <p>Monday – Friday, 9:00 AM – 6:00 PM (EST)</p>
       </div>
     </div>
   );

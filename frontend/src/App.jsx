@@ -13,13 +13,13 @@ function App() {
           <Link to="/main" className="link">
             <button className="guide-button">
               <h3>
-                <h3>Thing</h3>
+                <h3>Home</h3>
               </h3>
             </button>
           </Link>
           <Link to="/contact-us" className="link">
             <button className="guide-button">
-              <h3>Thing</h3>
+              <h3>Contact</h3>
             </button>
           </Link>
 
