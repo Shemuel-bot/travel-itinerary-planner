@@ -1,9 +1,15 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Navigate, Outlet, useNavigate } from "react-router-dom";
 import logo from "./assets/logo.png";
 import gray_logo from "./assets/gray_logo.png";
 import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  const navigate = useNavigate()
+  useEffect(() => {
+    navigate('/main')
+  }, [])
+
   return (
     <>
       <header>
@@ -25,7 +31,7 @@ function App() {
 
           <Link to='/destinations' className="link">
           <button className="guide-button">
-            <h3>Destinations</h3>
+            <h3>Places</h3>
           </button>
           </Link>
 
