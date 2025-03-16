@@ -48,6 +48,25 @@
     transition: transform 1s ease;
 }
 
+.destinations .destination-images .image-widget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-family: Dancing;
+
+    transition: all 0.5s ease;
+    color: white;
+}
+
+
 .destinations .destination-images img:hover{
     transform: scale(1.1);
+}
+
+.destinations .destination-images .image-widget:hover{
+    color: black;
+    font-size: larger;
 }

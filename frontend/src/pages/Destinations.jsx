@@ -16,12 +16,30 @@ function Destinations() {
           recommendations, and hidden gems to make your trip unforgettable.
         </h2>
         <span className="destination-images">
-            <img src={Paris} alt="" />
-            <img src={Berlin} alt="" />
-            <img src={Tokyo} alt="" />
-            <img src={Shanghai} alt="" />
-            <img src={NewYork} alt="" />
-            <img src={Norway} alt="" />
+            <span className="image-widget">
+                <img src={Paris} alt="" />
+                <h2>Paris</h2>
+            </span>
+            <span className="image-widget">
+                <img src={Berlin} alt="" />
+                <h2>Berlin</h2>
+            </span>
+            <span className="image-widget">
+                <img src={Tokyo} alt="" />
+                <h2>Tokyo</h2>
+            </span>
+            <span className="image-widget">
+                <img src={Shanghai} alt="" />
+                <h2>Shanghai</h2>
+            </span>
+            <span className="image-widget">
+                <img src={NewYork} alt="" />
+                <h2>New York</h2>
+            </span>
+            <span className="image-widget">
+                <img src={Norway} alt="" />
+                <h2>Norway</h2>
+            </span>
         </span>
       </div>
     </div>
