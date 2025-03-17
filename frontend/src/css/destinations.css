@@ -48,6 +48,12 @@
     transition: transform 1s ease;
 }
 
+.destinations .featured-destinations>h2{
+    text-align: center;
+    font-size: large;
+    width: 600px;
+}
+
 .destinations .destination-images .image-widget{
     display: flex;
     flex-direction: column;
@@ -90,6 +96,7 @@
 
 .destinations .destination-images img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .destinations .destination-images .image-widget:hover{
