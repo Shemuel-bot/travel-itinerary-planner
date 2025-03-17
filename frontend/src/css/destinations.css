@@ -61,6 +61,32 @@
     color: white;
 }
 
+.destinations .by-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.destinations .categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.destinations .categories > *{
+    padding: 20px;
+    transition: all 1s ease;
+}
 
 .destinations .destination-images img:hover{
     transform: scale(1.1);
@@ -69,4 +95,13 @@
 .destinations .destination-images .image-widget:hover{
     color: black;
     font-size: larger;
+}
+
+.destinations .categories > *:hover{
+    font-family: Dancing;
+    font-size: 40px;
+    
+    text-decoration: solid;
+
+    cursor: pointer;
 }
