@@ -1,7 +1,7 @@
-import img1 from "../assets/images/pexels-apasaric-1285625.jpg";
-import img2 from "../assets/images/pexels-david-bartus-43782-1166209.jpg";
-import img3 from "../assets/images/pexels-fotios-photos-1107717.jpg";
-import img4 from "../assets/images/pexels-pixabay-462162.jpg";
+import img1 from "../assets/images/Locations/pexels-apasaric-1285625.jpg";
+import img2 from "../assets/images/Locations/pexels-david-bartus-43782-1166209.jpg";
+import img3 from "../assets/images/Locations/pexels-fotios-photos-1107717.jpg";
+import img4 from "../assets/images/Locations/pexels-pixabay-462162.jpg";
 
 function Mainpage() {
   return (

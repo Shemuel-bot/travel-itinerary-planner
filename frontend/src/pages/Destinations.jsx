@@ -1,9 +1,14 @@
-import Paris from "../assets/images/Paris.jpg";
-import Berlin from "../assets/images/Berlin.jpg";
-import Tokyo from "../assets/images/Tokyo.jpg";
-import Shanghai from "../assets/images/Shanghai.jpg";
-import NewYork from "../assets/images/New York.jpg";
-import Norway from "../assets/images/Norway.jpg";
+import Paris from "../assets/images/Locations/Paris.jpg";
+import Berlin from "../assets/images/Locations/Berlin.jpg";
+import Tokyo from "../assets/images/Locations/Tokyo.jpg";
+import Shanghai from "../assets/images/Locations/Shanghai.jpg";
+import NewYork from "../assets/images/Locations/New York.jpg";
+import Norway from "../assets/images/Locations/Norway.jpg";
+
+import flower from "../assets/images/Icons/flower.png";
+import sun from "../assets/images/Icons/sun.png";
+import snowflake from "../assets/images/Icons/snowflake.png";
+import leaf from "../assets/images/Icons/leaf.png";
 import "../css/destinations.css";
 
 function Destinations() {
@@ -52,6 +57,28 @@ function Destinations() {
           <h2>Luxury</h2>
           <h2>Foodie</h2>
           <h2>Budget-friendly</h2>
+        </span>
+      </div>
+
+      <div className="by-seasons">
+        <h1>Seasonal</h1>
+        <span className="seasons">
+          <span className="season-widget">
+            <img src={flower} alt="" />
+            <h2>Spring</h2>
+          </span>
+          <span className="season-widget">
+            <img src={sun} alt="" />
+            <h2>Summer</h2>
+          </span>
+          <span className="season-widget">
+            <img src={leaf} alt="" />
+            <h2>Fall</h2>
+          </span>
+          <span className="season-widget">
+            <img src={snowflake} alt="" />
+            <h2>Winter</h2>
+          </span>
         </span>
       </div>
     </div>

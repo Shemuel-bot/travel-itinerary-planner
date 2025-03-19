@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img from "../assets/images/pexels-pixabay-280221.jpg";
+import img from "../assets/images/Locations/pexels-pixabay-280221.jpg";
 import logo from "../assets/logo.png";
 import "../css/login.css";
 
