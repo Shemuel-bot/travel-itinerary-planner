@@ -81,6 +81,17 @@ function Destinations() {
           </span>
         </span>
       </div>
+
+      <div className="map">
+        <h1>Map</h1>
+        <iframe
+          width="600"
+          height="450"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_eTLSLWryzwGp4m0yHIp0BcEiZGH-dRs&q=Space+Needle,Seattle+WA"
+        ></iframe>
+      </div>
     </div>
   );
 }
