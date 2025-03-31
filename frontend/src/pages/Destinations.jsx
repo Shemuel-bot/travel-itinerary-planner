@@ -91,6 +91,8 @@ function Destinations() {
           allowfullscreen
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_eTLSLWryzwGp4m0yHIp0BcEiZGH-dRs&q=Space+Needle,Seattle+WA"
         ></iframe>
+        Found your dream destination? Start planning your trip now with our easy-to-use itinerary builder!
+        <button>Plan My Trip</button>
       </div>
     </div>
   );
